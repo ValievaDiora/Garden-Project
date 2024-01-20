@@ -33,6 +33,10 @@
   color: rgb(79, 237, 79);
   transition: 0.5s;
 }
+.discountPrice {
+  display: inline-flex;
+  gap: 16px;
+}
 
 .allProductsPrice {
   margin: 0px 0px 20px 22px;
@@ -41,6 +45,24 @@
   font-weight: 600;
   line-height: 110%;
   cursor: pointer;
+}
+.allProductsDiscount {
+  margin-top: 15px;
+  color: #8b8b8b;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+.allProductsProcent {
+  margin-top: 8px;
+  padding: 4px 8px;
+  position: absolute;
+  border-radius: 6px;
+  background: #393;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 258px;
 }
 
 .addToCard {
@@ -56,7 +78,7 @@
   border: none;
   background: #393;
   margin-left: 25px;
-  margin-top: -196px;
+  margin-top: -92px;
   cursor: pointer;
 }
 

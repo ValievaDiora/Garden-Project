@@ -41,26 +41,27 @@ export default function AllProductsItem({
               backgroundImage: `url(http://localhost:3333/${image})`,
             }}
           ></div>
-
-          <Link to={`/AllProducts/${id}`} className={s.linkP}>
-            <p className={s.allProductsTitle}>{title}</p>
-          </Link>
-          {discont_price ? (
-            <>
-              <p className={s.allProductsPrice}>${price}</p>
-              <p>{discont_price}</p>
-              <p>{sale}</p>
-            </>
-          ) : (
-            <p className={s.allProductsPrice}>${price}</p>
-          )}
-
           <button
             className={s.addToCard}
             onClick={() => dispatch(addToCart(product))}
           >
             Add to Cart
           </button>
+
+          <Link to={`/AllProducts/${id}`} className={s.linkP}>
+            <p className={s.allProductsTitle}>{title}</p>
+          </Link>
+          <div className={s.discountPrice}>
+            {discont_price ? (
+              <>
+                <p className={s.allProductsPrice}>${price}</p>
+                <p className={s.allProductsDiscount}>{discont_price}</p>
+                <p className={s.allProductsProcent}>-{sale}%</p>
+              </>
+            ) : (
+              <p className={s.allProductsPrice}>${price}</p>
+            )}
+          </div>
         </div>
       </div>
     </div>

@@ -6,6 +6,8 @@ import { useDispatch, useSelector } from "react-redux";
 import CategoriesJson from "../../components/CategoriesJson";
 import { getAllProducts } from "../../requests/allProductsRequest";
 import AllProductsJson from "../../components/AllProductsJson";
+import s from "./index.module.css";
+import { Link } from "react-router-dom";
 
 export default function MainPage() {
   const dispatch = useDispatch();
@@ -27,6 +29,13 @@ export default function MainPage() {
 
       <GetDiscount />
 
+      <div className={s.categoriesHR}>
+        <p className={s.categoriesText}>Sale</p>
+        <hr className={s.categoriesLine}></hr>
+        <Link to="/AllProducts" className={s.linkP}>
+          <button className={s.allCategoriesBtn}>All Sales</button>
+        </Link>
+      </div>
       <AllProductsJson products={filterProducts} />
     </div>
   );

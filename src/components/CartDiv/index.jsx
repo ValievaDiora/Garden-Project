@@ -148,8 +148,6 @@ export default function CartDiv({ cartItems }) {
                 value={email}
                 onChange={(e) => handleInputChange("email", e.target.value)}
               />
-
-              {/* <button className={s.orderButton}>Order</button> */}
               <OrderBtn
                 name={name}
                 phoneNumber={phoneNumber}

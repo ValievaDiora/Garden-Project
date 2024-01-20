@@ -90,3 +90,14 @@ select {
   gap: 16px;
   align-items: center;
 }
+
+@media (max-width: 768px) {
+  .sortProducts {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .allProductsText {
+    font-size: 50px;
+  }
+}

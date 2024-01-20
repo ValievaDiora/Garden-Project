@@ -12,11 +12,6 @@
   background: green;
   overflow: hidden;
 }
-@media only screen and (max-width: 828px) {
-  .getDiscount {
-    height: auto; /* Автоматическая высота, чтобы контент подстраивался по высоте */
-  }
-}
 
 .getDiscountH1 {
   color: white;
@@ -40,11 +35,6 @@
 
 .getDiscountBtns {
   margin-top: 40px;
-}
-@media only screen and (max-width: 50px) {
-  .getDiscountBtns {
-    height: auto; /* Автоматическая высота, чтобы контент подстраивался по высоте */
-  }
 }
 
 .getDiscountNameBtn,
@@ -72,4 +62,17 @@
   color: white;
   font-size: 17px;
   font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .getDiscountNameBtn,
+  .getDiscountPhoneBtn,
+  .getDiscountEmailBtn {
+    width: 200px;
+    height: 50px;
+  }
+
+  .getDiscount {
+    height: auto; /* Автоматическая высота, чтобы контент подстраивался по высоте */
+  }
 }

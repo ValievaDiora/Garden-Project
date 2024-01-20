@@ -1,17 +1,3 @@
-.mainContainer {
-  height: 100%;
-  padding-bottom: 32px;
-}
-
-.categories {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  margin-top: 60px;
-  grid-template-columns: repeat(5, 1fr);
-  font-family: "Montserrat", sans-serif;
-}
-
 .categoriesHR {
   display: flex;
   justify-content: center;
@@ -19,6 +5,12 @@
   max-width: 1560px;
   height: 70px;
   margin-top: 10px;
+}
+@media only screen and (max-width: 828px) {
+  .categoriesHR {
+    width: 90%; /* Например, установите ширину на 90% для адаптации под меньшие экраны */
+    margin: 10px auto; /* Центрируем по горизонтали и добавляем отступы сверху и снизу */
+  }
 }
 
 .categoriesText {
@@ -61,28 +53,4 @@
   box-shadow: 1px 1px 30px 3px #339933;
   border: none;
   cursor: pointer;
-}
-
-@media (max-width: 768px) {
-  .categories {
-    grid-template-columns: repeat(2, 1fr);
-    text-align: center;
-  }
-  .categoriesHR {
-    width: 90%;
-    margin: 10px auto;
-  }
-  .categoriesText {
-    font-size: 54px;
-  }
-}
-
-@media (max-width: 600px) {
-  .categories {
-    grid-template-columns: repeat(1, 1fr);
-    text-align: center;
-  }
-  .categoriesText {
-    font-size: 44px;
-  }
 }

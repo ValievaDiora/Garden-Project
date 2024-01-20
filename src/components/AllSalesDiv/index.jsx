@@ -2,7 +2,6 @@ import React from "react";
 import s from "./index.module.css";
 import { Link } from "react-router-dom";
 import PriceFilter from "../PriceFilter";
-import DiscountFilter from "../DiscountFilter";
 import { useDispatch } from "react-redux";
 import { sortProducts } from "../../store/slices/allProductsSlices";
 
