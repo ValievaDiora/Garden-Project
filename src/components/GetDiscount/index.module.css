@@ -1,0 +1,75 @@
+.getDiscount {
+  display: flex;
+  padding: 32px 32px 0px 32px;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  height: 500px;
+  width: 95%;
+  border-radius: 12px;
+  background: green;
+  overflow: hidden;
+}
+@media only screen and (max-width: 828px) {
+  .getDiscount {
+    height: auto; /* Автоматическая высота, чтобы контент подстраивался по высоте */
+  }
+}
+
+.getDiscountH1 {
+  color: white;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.getDiscountContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.getDiscountImg {
+  flex: 1;
+  width: 748px;
+  height: 360px;
+  margin-top: 29px;
+}
+
+.getDiscountBtns {
+  margin-top: 40px;
+}
+@media only screen and (max-width: 50px) {
+  .getDiscountBtns {
+    height: auto; /* Автоматическая высота, чтобы контент подстраивался по высоте */
+  }
+}
+
+.getDiscountNameBtn,
+.getDiscountPhoneBtn,
+.getDiscountEmailBtn {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  padding: 16px 32px;
+  border-radius: 6px;
+  border: 1px solid white;
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  margin-left: 40px;
+  cursor: pointer;
+  width: 516px;
+  height: 50px;
+  margin-right: 32px;
+}
+
+.getDiscountNameBtn::placeholder,
+.getDiscountPhoneBtn::placeholder,
+.getDiscountEmailBtn::placeholder {
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+}

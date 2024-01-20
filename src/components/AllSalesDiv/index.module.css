@@ -1,0 +1,92 @@
+.allProductsSwitchMenu {
+  margin-top: 40px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 365px;
+  height: 36px;
+}
+
+.switchToMenu,
+.stayDiscountedPrices {
+  display: flex;
+  padding: 8px 16px;
+  width: 128px;
+  height: 36px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background-color: white;
+  color: #8b8b8b;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 126%;
+}
+
+.switchToMenu:hover {
+  transition: 0.5s;
+  background-color: #339933;
+  color: white;
+  box-shadow: 1px 1px 30px 3px #339933;
+  border: none;
+  cursor: pointer;
+}
+
+.linkP {
+  color: black;
+  text-decoration: none;
+}
+.stayDiscountedPrices {
+  color: black;
+  width: 181px;
+  height: 36px;
+}
+
+.switchHr {
+  border-bottom: 1px solid #ddd;
+  width: 16px;
+}
+
+.allProductsText {
+  margin-top: 40px;
+  margin-left: 40px;
+  color: black;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 110%;
+}
+
+.sortProducts {
+  margin-top: 40px;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.sortText {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 130%;
+}
+select {
+  display: flex;
+  width: 200px;
+  padding: 8px 8px 8px 16px;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.sortedFilter {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+}

@@ -1,0 +1,31 @@
+.categoriesContainer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.categoryImg {
+  width: 280px;
+  height: 314px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+}
+
+.categoryTitle:hover {
+  transition: 0.5s;
+  color: rgb(25, 233, 25);
+}
+.categoryTitle {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.linkP {
+  color: black;
+  text-decoration: none;
+}

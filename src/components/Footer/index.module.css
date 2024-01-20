@@ -1,0 +1,129 @@
+.contact {
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  font-family: "Montserrat", sans-serif;
+  height: 948px;
+  margin-top: 40px;
+}
+@media only screen and (max-width: 828px) {
+  .contact {
+    height: auto;
+  }
+}
+.contactH1 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 40px;
+  color: black;
+  font-size: 28px;
+  font-weight: 700;
+  cursor: default;
+}
+
+.contactInfo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+  align-items: center;
+  margin-left: 140px;
+  margin-top: 40px;
+  margin-bottom: 32px;
+  max-width: 1360px;
+}
+
+@media (max-width: 600px) {
+  .contactInfo {
+    grid-template-columns: 1fr; /* Одна колонка на мобильных устройствах */
+  }
+}
+
+.contactPhone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  padding: 32px;
+  gap: 16px;
+  border-radius: 12px;
+  background: #f1f3f4;
+  max-width: 780px;
+  max-height: 150px;
+}
+
+.contactAddress {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  padding: 32px;
+  gap: 16px;
+  border-radius: 12px;
+  background: #f1f3f4;
+  max-width: 780px;
+  max-height: 194px;
+}
+
+.contactText,
+.socialsText,
+.addressText,
+.hoursText {
+  align-self: stretch;
+  line-height: 110%;
+  color: #8b8b8b;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.contactNumber,
+.addressName,
+.hoursName {
+  align-self: stretch;
+  line-height: 110%;
+  color: #282828;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.contactSocials {
+  display: flex;
+  padding: 32px;
+  gap: 16px;
+  border-radius: 12px;
+  background: #f1f3f4;
+  max-height: 150px;
+  width: 605px;
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+}
+
+.contactHours {
+  display: flex;
+  padding: 32px;
+  justify-content: center;
+  gap: 16px;
+  border-radius: 12px;
+  background: #f1f3f4;
+  max-height: 194px;
+  width: 605px;
+  flex-direction: column;
+  align-self: stretch;
+}
+
+.socialsLogo {
+  display: inline-block;
+}
+
+.socialsLogo1 {
+  margin-right: 16px;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

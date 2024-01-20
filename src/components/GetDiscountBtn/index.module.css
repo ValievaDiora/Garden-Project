@@ -1,0 +1,54 @@
+.getDiscountBtn {
+  display: flex;
+  margin: 32px;
+  padding: 16px 32px;
+  justify-content: center;
+  border-radius: 6px;
+  border: 0;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 40px;
+  cursor: pointer;
+  width: 516px;
+  margin-right: 32px;
+}
+
+.getDiscountBtn:hover {
+  transition: 0.5s;
+  color: white;
+  background-color: black;
+  box-shadow: 1px 1px 30px 5px white;
+}
+
+.succeeded {
+  display: flex;
+  justify-content: center;
+  color: rgb(191, 229, 191);
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 516px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  color: rgb(228, 242, 160);
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 516px;
+}
+
+.failed {
+  display: flex;
+  justify-content: center;
+  color: rgb(250, 138, 138);
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 516px;
+}

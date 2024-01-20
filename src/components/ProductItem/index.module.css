@@ -1,0 +1,157 @@
+.allProductsSwitchMenu {
+  margin-top: 40px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 485px;
+  height: 36px;
+}
+
+.switchToAllProducts,
+.switchToMenu,
+.stayProduct {
+  display: flex;
+  padding: 8px 16px;
+  width: 138px;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background-color: white;
+  color: #8b8b8b;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 126%;
+}
+
+.switchToAllProducts:hover,
+.switchToMenu:hover {
+  transition: 0.5s;
+  background-color: #339933;
+  color: white;
+  box-shadow: 1px 1px 30px 3px #339933;
+  border: none;
+  cursor: pointer;
+}
+
+.linkP {
+  color: black;
+  text-decoration: none;
+}
+.stayProduct {
+  display: inline-block;
+  color: black;
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 10px;
+}
+
+.switchHr {
+  border-bottom: 1px solid #ddd;
+  width: 16px;
+}
+
+.divWithProduct {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 80px;
+}
+
+.allProductsImg {
+  flex: 0.6;
+  width: 548px;
+  height: 572px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+}
+
+.totalDiv {
+  flex: 1;
+  margin-left: 40px;
+  width: 548px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.title {
+  width: 548px;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+
+.price {
+  margin-top: 32px;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.buttons {
+  display: inline-flex;
+  gap: 36px;
+  margin-top: 32px;
+  align-items: center;
+}
+
+.increment,
+.decrement {
+  width: 58px;
+  height: 58px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  color: grey;
+  background-color: white;
+  font-size: 26px;
+}
+
+.increment:hover,
+.decrement:hover {
+  transition: 0.5s;
+  background-color: rgb(235, 235, 235);
+}
+
+.addToCard {
+  display: flex;
+  width: 276px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 6px;
+  border: none;
+  background: #393;
+  cursor: pointer;
+}
+
+.addToCard:hover {
+  transition: 1s;
+  background: black;
+}
+
+.description1 {
+  margin-top: 32px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.description {
+  margin-top: 16px;
+  width: 500px;
+  height: 227px;
+  align-self: stretch;
+  font-size: 16px;
+  font-weight: 400;
+}
