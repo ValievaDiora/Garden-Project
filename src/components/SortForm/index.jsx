@@ -32,14 +32,15 @@ export default function SortForm() {
         <PriceFilter />
         <DiscountFilter />
         <div className={s.sortedFilter}>
-        <p className={s.sortText}>Sorted</p>
-        <select onInput={sortedProducts} defaultValue="none" name="" id="">
-          <option value="none">by default</option>
-          <option value="title">By alphabet</option>
-          <option value="asc">Price asc</option>
-          <option value="desc">Price desc</option>
-        </select>
+          <p className={s.sortText}>Sorted</p>
+          <select onInput={sortedProducts} defaultValue="none" name="" id="">
+            <option value="none">by default</option>
+            <option value="title">By alphabet</option>
+            <option value="asc">Price asc</option>
+            <option value="desc">Price desc</option>
+          </select>
         </div>
+        -
       </div>
     </div>
   );

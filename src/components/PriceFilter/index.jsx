@@ -12,7 +12,6 @@ export default function PriceFilter() {
 
   const handleChange = (min, max) => {
     dispatch(filterProduct({ minValue: min, maxValue: max }));
-    console.log(min, max);
   };
 
   const handleMinValueChange = (e) => {
@@ -42,7 +41,7 @@ export default function PriceFilter() {
       />
 
       <input
-      className={s.inputMax}
+        className={s.inputMax}
         type="number"
         placeholder="max"
         value={maxValue === Infinity || maxValue === 0 ? "" : maxValue}

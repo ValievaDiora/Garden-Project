@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import CartDiv from "../CartDiv";
-// import Notification from "../Notification";
 import { useSelector } from "react-redux";
 
 export default function CartParent() {
@@ -13,7 +12,6 @@ export default function CartParent() {
   return (
     <div>
       <CartDiv cartItems={cartState} />
-      {/* <Notification /> */}
     </div>
   );
 }
